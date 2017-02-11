@@ -1,42 +1,29 @@
-/angular-secret-friend/node_modules
 
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+#angulas-secret-friend ignore
 
 # compiled output
 /angular-secret-friend/dist
 /angular-secret-friend/tmp
-
 # dependencies
 /angular-secret-friend/node_modules
-
 # IDEs and editors
 /angular-secret-friend/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
+/angular-secret-friend/.project
+/angular-secret-friend/.classpath
+/angular-secret-friend/.c9/
+/angular-secret-friend/*.launch
+/angular-secret-friend/.settings/
 # misc
 /angular-secret-friend/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
-
+/angular-secret-friend/connect.lock
+/angular-secret-friend/coverage/*
+/angular-secret-friend/libpeerconnection.log
+/angular-secret-friend/npm-debug.log
+/angular-secret-friend/testem.log
+/angular-secret-friend/typings
 # e2e
-/e2e/*.js
-/e2e/*.map
-
+/angular-secret-friend/e2e/*.js
+/angular-secret-friend/e2e/*.map
 #System Files
-.DS_Store
-Thumbs.db
+/angular-secret-friend/.DS_Store
+/angular-secret-friend/Thumbs.db

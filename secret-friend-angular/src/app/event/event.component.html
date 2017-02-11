@@ -1,0 +1,53 @@
+<h1>{{ event.name }}</h1>
+<img src="{{picture}}" width="150" alt="">
+<p><strong>Data:</strong> {{event.date}}</p>
+<address>
+  <strong>Endereço</strong> {{event.street}} , {{event.city}} , {{event.state}}
+</address>
+
+<p>
+  <button (click)="toggleParticipants()">{{showParticipants ? "Esconder Participantes" : "Mostrar Participantes"}}</button>
+</p>
+
+<section id="friends" *ngIf="showParticipants">
+  <h3>Participantes</h3>
+
+  <form (submit)="addParticipant(user.value)">
+    <p>
+      <label for="user">Adicionar</label>
+      <input type="text" #user id="user">
+    </p>
+  </form>
+
+  <ul>
+    <li *ngFor="let friend of friends; let i = index" [id]="friend.id">
+      {{ friend.name }} &lt;{{friend.email}}&gt; <button (click)="removeUser(i, friend)">x</button>
+    </li>
+  </ul>
+</section>
+
+<hr/>
+
+<form action="#">
+  <p>
+    <label for="event.name">Título:</label><br>
+    <input type="text" name="event.name" id="event.name" [(ngModel)]="event.name">
+  </p>
+
+  <p>
+    <label for="picture">Foto:</label><br>
+    <input type="text" name="picture" id="picture" [(ngModel)]="picture">
+  </p>
+
+  <p>
+    <label for="event.date">Data:</label><br>
+    <input type="text" name="event.date" id="event.date" [(ngModel)]="event.date">
+  </p>
+
+  <p>
+    <label for="street">Endereço:</label><br>
+    <input type="text" name="event.street" id="street" [(ngModel)]="event.street">
+    <input type="text" name="event.city" id="city" [(ngModel)]="event.city">
+    <input type="text" name="event.state" id="state" [(ngModel)]="event.state">
+  </p>
+</form>

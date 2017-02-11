@@ -1,0 +1,9 @@
+ <h3>EVENTOS</h3>
+
+ <section>
+  <ul>
+    <li *ngFor="let event of events; let i = index" [id]="event.id">
+      {{ event.name }} {{event.address}} | <a [routerLink]="['/events', event.id]" routerLinkActive="active">VER</a>
+    </li>
+  </ul>
+</section>

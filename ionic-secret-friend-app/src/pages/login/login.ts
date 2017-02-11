@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, Events } from 'ionic-angular';
 import { EventListPage } from '../event-list/event-list'
+import { AuthService} from '../../providers/auth-service'
 
 
 /*
@@ -17,7 +18,10 @@ import { EventListPage } from '../event-list/event-list'
 export class LoginPage {
 	isLoading: boolean;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, 
+    public navParams: NavParams,
+    private _auth: AuthService,
+    private events: Events) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad LoginPage');
@@ -26,6 +30,16 @@ export class LoginPage {
   connectWithFacebook(): void {
   	this.isLoading = true;
   	this.navCtrl.push(EventListPage);
+    this._auth.signInWithFacebook()
+      .then(() => this.onSignSuccess())
+      .catch(() => {
+        this.isLoading =false;
+      });
+
+  }
+
+  onSignSuccess(): void{
+    this.events.publish('user:login');
   }
 
 }

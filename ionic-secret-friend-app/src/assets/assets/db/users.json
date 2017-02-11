@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "name": "Juarez Filho",
+    "username": "juarezpaf",
+    "email": "juarezpaf@gmail.com",
+    "picture": "https://randomuser.me/api/portraits/thumb/men/1.jpg",
+    "gift": "Google Pixel",
+    "quote": "Technology is anything that wasn’t around when you were born",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "82 99971-5434",
+    "website": "http://gdgmaceio.rocks",
+    "company": "GDG Maceio"
+  },
+  {
+    "id": 2,
+    "name": "Quezia Carla",
+    "username": "quezia.carla",
+    "email": "quezia@carla.com",
+    "picture": "https://randomuser.me/api/portraits/thumb/women/1.jpg",
+    "gift": "Canon 70D",
+    "quote": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness.",
+    "secretSanta": true,
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "qcfotografia.com",
+    "company": "QC Fotografia"
+  },
+  {
+    "id": 3,
+    "name": "Gustavo Costa",
+    "username": "gustavocostaw",
+    "email": "gustavocostaw@gmail.com",
+    "picture": "https://randomuser.me/api/portraits/thumb/men/5.jpg",
+    "gift": "Toddy",
+    "quote": "It has become appallingly obvious that our technology has exceeded our humanity.",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": "GDG Maceio"
+  },
+  {
+    "id": 4,
+    "name": "Monique Roberta Santos",
+    "username": "monique",
+    "email": "monique@roberta.com",
+    "picture": "https://randomuser.me/api/portraits/thumb/women/2.jpg",
+    "gift": "GoPro 4",
+    "quote": "One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man.",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": "GDG Maceio"
+  },
+  {
+    "id": 5,
+    "name": "Juckson Victor",
+    "username": "jucksonvictor",
+    "email": "Lucio_Hettinger@annie.ca",
+    "picture": "https://randomuser.me/api/portraits/thumb/men/9.jpg",
+    "gift": "iPhone 7",
+    "quote": "Technology made large populations possible; large populations now make technology indispensable.",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": "GDG Maceio"
+  },
+  {
+    "id": 6,
+    "name": "Felipe Lopes",
+    "username": "felipe.lopes",
+    "email": "Karley_Dach@jasper.info",
+    "picture": "https://randomuser.me/api/portraits/thumb/men/3.jpg",
+    "gift": "Super Marion Run",
+    "quote": "This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature.",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": "GDG Maceio"
+  },
+  {
+    "id": 7,
+    "name": "Elisio Filho",
+    "username": "netinhu",
+    "email": "Telly.Hoeger@billy.biz",
+    "picture": "https://randomuser.me/api/portraits/thumb/men/4.jpg",
+    "gift": "Tapioca",
+    "quote": "The real danger is not that computers will begin to think like men, but that men will begin to think like computers.",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": "GDG Maceio"
+  },
+  {
+    "id": 8,
+    "name": "Luan Henrique",
+    "username": "luan.henrique",
+    "email": "Sherwood@rosamond.me",
+    "picture": "https://randomuser.me/api/portraits/thumb/men/6.jpg",
+    "gift": "Chromecast",
+    "quote": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response.",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": "GDG Maceio"
+  }
+]

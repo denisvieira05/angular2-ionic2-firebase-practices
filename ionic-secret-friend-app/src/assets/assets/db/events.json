@@ -1,0 +1,109 @@
+[
+  {
+    "_id": 1,
+    "title": "Amigo Secreto Família",
+    "picture": "https://i.imgsafe.org/4ccd102f9a.jpg",
+    "friends": 10,
+    "raffleDate": "2016-12-16 7:00",
+    "eventDate": "2016-12-17 18:25",
+    "location": "Av. Alm. Álvaro Calheiros, 864 - Jatiúca, Maceió - AL, 57035-558, Brazil",
+    "ownership": true,
+    "isFriendsChosen": false,
+    "lastMessage": {
+      "owner": "Juarez Filho",
+      "content": "Hey, it's me",
+      "createdAt": "2016-12-16 11:00am"
+    }
+  },
+  {
+    "_id": 2,
+    "title": "Amigo Chocolate Peniel",
+    "picture": "https://i.imgsafe.org/4cccff2ce9.jpg",
+    "friends": 20,
+    "raffleDate": "2016-12-17 7:00",
+    "eventDate": "2016-12-18 10:00",
+    "location": "Av. Pres. Getúlio Vargas, 935 - Serraria, Maceió - AL, 57046-840",
+    "ownership": true,
+    "isFriendsChosen": true,
+    "lastMessage": {
+      "owner": "Quezia Carla",
+      "content": "I should buy a boat",
+      "createdAt": "2016-12-16 10:30am"
+    }
+  },
+  {
+    "_id": 3,
+    "title": "Amigos do Futebol",
+    "picture": "https://i.imgsafe.org/4ccd146c58.jpg",
+    "friends": 23,
+    "raffleDate": "2016-12-20 10:00",
+    "eventDate": "2016-12-21 21:00",
+    "location": "Av. Gilberto Soares Pinto Maceió, AL 57048-000",
+    "isFriendsChosen": true,
+    "lastMessage": {
+      "owner": "Juckson Victor",
+      "content": "Look at my mukluks!",
+      "createdAt": "2016-12-16 9:00am"
+    }
+  },
+  {
+    "_id": 4,
+    "title": "Amigo Geek Caravana Web",
+    "picture": "https://i.imgsafe.org/4ccd1b851a.jpg",
+    "friends": 30,
+    "raffleDate": "2016-12-24 8:00",
+    "eventDate": "2016-12-25 22:00",
+    "location": "Av. Fernandes Lima, 1218 - Gruta de Lourdes, Maceió - AL, 57050-000",
+    "isFriendsChosen": false,
+    "lastMessage": {
+      "owner": "Quezia Carla",
+      "content": "This is wicked good ice cream.",
+      "createdAt": "2016-12-16 4:00pm"
+    }
+  },
+  {
+    "_id": 5,
+    "title": "Amigo GDEs Brasil 🇧🇷",
+    "picture": "https://i.imgsafe.org/4ccd2e5324.jpg",
+    "friends": 8,
+    "raffleDate": "2016-12-25 9:00",
+    "eventDate": "2016-12-26 15:00",
+    "location": "Av. Brg. Faria Lima, 3477 - Itaim Bibi, São Paulo - SP, 04538-133",
+    "isFriendsChosen": true,
+    "lastMessage": {
+      "owner": "Juarez Filho",
+      "content": "You on your way?",
+      "createdAt": "2016-12-16 6:00am"
+    }
+  },
+  {
+    "_id": 6,
+    "title": "Amigos da Música 🎧",
+    "picture": "https://i.imgsafe.org/4cccf8842a.jpg",
+    "friends": 20,
+    "raffleDate": "2016-12-24 18:00",
+    "eventDate": "2016-12-25 19:00",
+    "location": "Av. Fernandes Lima, 1218 - Gruta de Lourdes, Maceió - AL, 57050-000, Brazil",
+    "isFriendsChosen": false,
+    "lastMessage": {
+      "owner": "Juarez Filho",
+      "content": "You on your way?",
+      "createdAt": "2016-12-16 6:00am"
+    }
+  },
+  {
+    "_id": 7,
+    "title": "Amigos das Aventuras",
+    "picture": "https://i.imgsafe.org/4cccc8b76e.jpg",
+    "friends": 5,
+    "raffleDate": "2016-12-24 18:00",
+    "eventDate": "2016-12-25 19:00",
+    "location": "AL 101 Norte, KM 10, 10201 - Pescaria, Maceió - AL, 57039-600, Brazil",
+    "isFriendsChosen": false,
+    "lastMessage": {
+      "owner": "Juarez Filho",
+      "content": "Let's do it?",
+      "createdAt": "2016-12-16 6:00am"
+    }
+  }
+]
